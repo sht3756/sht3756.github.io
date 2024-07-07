@@ -7,7 +7,7 @@ comments: false
 published: true
 ---
 
-<img width=100 height=200 src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/my.jpeg?raw=true">
+<img width=100 height=200 src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/face1.jpg?raw=true">
 
 
 # "안녕하세요👋 즐기는 개발자가 되고 싶은, 신희태 입니다."
