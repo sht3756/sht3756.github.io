@@ -3,11 +3,14 @@ title: "Hi all! I'm ShinHeetae👋🏻"
 permalink: /about/
 layout: single
 comments: false
+
+published: true
 ---
 
-# Flutter 개발자 신희태
-"안녕하세요👋
-포기하지않는 개발자가 되고 싶은, 신희태 입니다."
+<img width=100 height=200 src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/my.jpeg?raw=true">
+
+
+# "안녕하세요👋 즐기는 개발자가 되고 싶은, 신희태 입니다."
 
 **Think Positive!** 항상 긍정의 힘을 믿으며 앞으로 나아갑니다.
 협업을 위해 배려하며, 성장하기 위해 노력합니다.
@@ -20,38 +23,36 @@ comments: false
 
 ## About Me
 
+## 👨‍💻 경력 (총 2년 ~)
 
-## 👨‍💻 **경력  (총 2년 ~)
+### 프래프 2021.09.23 - 2022.09.22
 
-프래프  2021.09.23 - 2022.09.22
+• 웹 신규 서비스 개발
 
-• 웹 신규 서비스 개발 
+### 에이드리븐 2023.05.08 ~ Now
 
-에이드리븐 2023.05.08 ~ 2023
-
-• 리워드 앱 런칭 
+• 리워드 앱 런칭 <b><i>(앱 런칭 오픈 멤버)</i></b>
 
 ## 🔥 공부중~
 
 • 정보처리기사 실기
 
-• SQLD 
-
-• GetX 상태관리 
+• SQLD
 
 ## **🎓 학력**
 
 중부대학교 4년제 관광경영 학과 졸업 **2020.08**
 
-## 🧳**외국어**
+## **🧳 외국어**
 
-중국어 5급  **2019.08**
-
+중국어 5급 **2019.08**
 
 ## Skils
+
 <details>
   <summary><b>Flutter</b></summary>
   <p> - Provider, Bloc, GetX 상태관리 </p>
+  <p> - </p>
   <p> - Firebase Auth </p>
 </details>
 
@@ -68,110 +69,246 @@ comments: false
 
 ---
 
-
 ## Projects [회사]
-<!-- 
+
+> 회사에서 진행한 프로젝트입니다.
 <details>
   <summary><b>나라면</b></summary>
     <img src="https://raw.githubusercontent.com/sht3756/sht3756.github.io/main/assets/images/project1.jpg" alt="프로젝트">
-  <p>사용 언어 및 데이터베이스</p>
-  <p>프로젝트 소개</p>
-  <p>프로젝트 기술 스택 및 기여도</p>
-  <p>
-  사용 언어 및 데이터베이스 
-
-- Dart ⇒ 유저단
-- Firebase ⇒ 유저단
-- Node, Express ⇒ 관리자단
-- vue.js ⇒ 관리자단
-  </p>
-  <p>상태관리</p>
-  <p>- Getx, Bloc</p>
-  <p>기여도</p>
- 
- <p>
- - 70% (신 기능 기획, 개발, 리팩토링 구조 변경)
-- 기능 기획 개발(드래그로 인한 응모 선택 및 기능 구현, FCM 기능 기획 및 개발)
-- 버전 업을 위한 구조 변경 Bloc 리팩토링 진행
-- 관리자단 개발 진행
-    - 유저 푸쉬 관리 (토큰, 주제, 즉시, 예약)
-    - 유저 구독 관리 (주제 팔로우, 주제 언 팔로우)
-    - 리프레쉬 토큰 로직 구현
-
-- 로그데이터 추적을 위한 스크립트 태그 개발
-- 관리자단 개발
-버전 1. 프로젝트 구조 개편에 선두 주자
-
-버전 2. 블록 상태관리 리팩토링 
-</p>
-</details>
-
-
-<details>
-  <summary><b>국룰</b></summary>
-  <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project2.jpeg?raw=true" alt="프로젝트">
   
-  <p> - Redux, ContextAPI 상태관리 </p>
-  <p> - 소셜 로그인, 결제API 연동, 페이지네이션기능 등 적용 가능 </p>
+  <div>
+    <b><u>프로젝트 소개</u></b>      
+  </div>
+  <p>매일 1분 투자로 뷰티, 가전, 명품, 패션 등 다양한 경품 응모 후 선물을 받아가세요!</p>
+  <p>개인정보 보호법의 강화로 인해 유저의 어떠한 개인정보를 함부로 추척 및 이용할 수 없도록 되었습니다. 나라면의 앱을 통해 개인정보 취득과 제어의 권한을 받을 수 있도록 도움을 주는 앱입니다.</p>
+
+  <div>
+    <b><u>기술 스택</u></b>
+  </div>
+    <p>  - Dart ⇒ 유저단 </p>
+    <p>  - Firebase ⇒ 유저단 </p>
+    <p>  - Node, Express ⇒ 관리자단 </p>
+    <p>  - vue.js ⇒ 관리자단 </p>
+  
+  <div>
+    <b><u>기능 개발 및 기여도</u></b>
+  </div>
+    <p> - 70% 이상 기여 (기획, 개발, 리팩토링)</p>  
+    <p> - GetX, Bloc 상태관리 사용 </p>
+    <p> - Getx -> Bloc 마이그레이션 및 프로젝트 구조 변경 진행</p>        
+    <p> - 기능 기획 개발(드래그로 인한 응모 선택 및 기능 구현, FCM 기능 기획 및 개발)</p>
+    <p> - 홈 - UI 단 기능 개발(리스트 출력, 더보기, 응모 기능, 댓글 기능 개발, 알림 리스트 출력, 더보기)</p>
+    <p> - 나라면 - UI 단 기능 개발(리스트 출력, 더보기, 설문조사 기능)</p>
+    <p> - 당첨 결과 - UI 단 기능 개발 (리스트 출력, 더보기 기능) </p>    
+    <p> - 즉각적인 피드백 기능을 적용해 유저 딜레이 감소</p>
+    <p> - 로그데이터 추적을 위한 스크립트 태그 개발</p>
+    <p> - 관리자단 개발</p>        
+    <p> - 유저 푸쉬 관리 (토큰, 주제, 즉시, 예약)</p>
+    <p> - 유저 구독 관리 (주제 팔로우, 주제 언 팔로우)</p>
+    <p> - 홈 배너 관리</p>
 </details>
 
 <details>
-  <summary><b>3</b></summary>
+  <summary><b>국룰 (KRule)</b></summary>
+  <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project2.jpeg?raw=true" alt="프로젝트">
+
+  <div>
+    <b><u>프로젝트 소개</u></b>      
+  </div>
+  <p>제철 음식&지역 별 특산품 추천 및 라이브 쇼핑, 레시피 제공, 선물하기 서비스를 제공하는 산지직송 플랫폼 앱. 현재 미오픈 상태입니다.</p>
+
+  <div>
+    <b><u>기술 스택</u></b>
+  </div>
+    <p> - React ⇒ 유저단 </p>
+    <p> - Typescript ⇒ 유저단 </p>
+    <p> - Mobx => 상태관리 </p>
+  <div>
+    <b><u>기능 개발 및 기여도</u></b>
+  </div>
+    <p> - 20% 기여 (퇴사 직전, 기능 개발 보다는 빠르게 api 연동하는 쪽으로 진행 했습니다.)</p>  
+    <p> 글 등록 (레시피)</p>
+    <p> 리스트 출력 (장보기, 제철음식, 전국 특산품, 라이브 쇼핑, 레시피, 선물 상품관)</p>
+    <p> 페이지 네이션 적용 (무한 스크롤- Intersection Observer)</p>
+    
+</details>
+
+<details>
+  <summary><b>메르카도 (Mercado)</b></summary>
   <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project3.png?raw=true" alt="프로젝트">
-  <p> - Redux, ContextAPI 상태관리 </p>
-  <p> - 소셜 로그인, 결제API 연동, 페이지네이션기능 등 적용 가능 </p>
+  <div>
+    <b><u>프로젝트 소개</u></b>      
+  </div>
+  <p>요리관련 레시피 제공, 재료 배송 서비스 커뮤니티 페이지입니다.</p>
+
+  <div>
+    <b><u>기술 스택</u></b>
+  </div>
+    <p>  - Dart ⇒ 유저단 </p>
+    <p>  - Firebase ⇒ 유저단 </p>
+    <p>  - Node, Express ⇒ 관리자단 </p>
+    <p>  - vue.js ⇒ 관리자단 </p>
+  
+  <div>
+    <b><u>기능 개발 및 기여도</u></b>
+  </div>
+    <p> 90 % 기여</p>
+    <p> - 90% 이상 기여 (기획, 개발, 리팩토링)</p>  
+    <p> - 이메일, 소셜 로그인적용 (카카오톡, 네이버, 애플)</p>
+    <p> - NHN 웹/앱 결제 API 연동</p>
+    <p> - 휴대폰 인증 (CoolSMS)</p>
+    <p> - CRUD 적용(리스트 출력, 삭제, 수정)</p>
+    <p> - 임시저장 기능 적용</p>
+    <p> - 다음 우체국 API 적용 및 배송위치 추적</p>
+    <p>- 페이지네이션 적용 (ReactQuery)</p>
 </details>
 
 <details>
-  <summary><b>3</b></summary>
-  <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project4.png?raw=true" alt="프로젝트">
-  <p></p>
-  <p></p>
+
+  <summary><b>워프 (Warp) </b></summary>
+  <div style="text-align:center;">
+  <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project4.png?raw=true" alt="프로젝트" >
+  </div>
+  <div>
+    <b><u>프로젝트 소개</u></b>      
+  </div>
+  <p> 음원 마스터링 홈페이지입니다.</p>
+  <p> 원하는 음원을 첨부하고 음원을 믹싱하거나, 리듬을 변경이 가능한 홈페이지입니다.</p>
+
+  <div>
+    <b><u>기술 스택</u></b>
+  </div>
+    <p>  - React ⇒ 유저단 </p>
+    <p>  - Context API ⇒ 상태관리 </p>
+  
+  <div>
+    <b><u>기능 개발 및 기여도</u></b>
+  </div>
+    <p> 20 % 기여</p>
+    <p> - 다국어 서비스 적용 (데이터 연동 및 스타일) </p>  
+    <p> - Drag&Drop 으로 파일 업로드 기능 적용 (파일 용량 제한(200mb))</p>
+    <p> - 파일 포맷 후 다운로드 기능 적용 </p>  
+    <a href="https://www.warpmastering.com/kr/main"></a>
 </details>
 
-
 <details>
-  <summary><b>3</b></summary>
+  <summary><b>펫트워크 (PetWork)</b></summary>
   <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project5.png?raw=true" alt="프로젝트">
-  <p></p>
-  <p></p>
+  <div>
+    <b><u>프로젝트 소개</u></b>      
+  </div>
+  <p>반려동물 관련 정보를 공유하는 커뮤니티 사이트 입니다. </p>
+  <p>용품 정보, 브랜드, 유저들끼리 정보를 공유할 수 있습니다.</p>
+
+  <div>
+    <b><u>기술 스택</u></b>
+  </div>
+    <p>  - React ⇒ 유저단 </p>
+    <p>  - Redux, Context API  ⇒ 상태 관리 </p>
+  
+  <div>
+    <b><u>기능 개발 및 기여도</u></b>
+  </div>
+    <p> 100 % 기여</p>
+    <p> - 소셜 로그인적용 (카카오톡, 네이버, 애플)</p>
+    <p> - CRUD 기능 적용 </p>
+    <p> - 페이지네이션 처리 (리스트, 댓글)</p>
+    <p> - 추천, 관련 검색어 기능 적용 (구글 자연어 NLP)</p>
+    <p> - 공유 기능 적용(카카오 공유)</p>
+    <p> - 최근 검색어 기능 적용</p>
+    <a href="https://petwork.kr/"></a>
 </details>
+
+
+## Projects [개인]
+
+> 개인적으로 진행한 프로젝트이며, 최신 순으로 구성했습니다.
+
 <details>
-  <summary><b>3</b></summary>
+  <summary><b>하쿠나마타타 (HakunaMatata)</b></summary>
   <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project6.png?raw=true" alt="프로젝트">
-  <p></p>
-  <p></p>
+ <div>
+    <b><u>프로젝트 소개</u></b>      
+  </div>
+  <p>고민을 이야기하고 위로를 전해주는 익명 고민 상담 커뮤니티 앱입니다.</p>
+  <p>고민님이 고민을 작성하면, 위로님이 따듯한 말을 전달할 수 있습니다. 위로의 말은 작성자인 고민님만 확인가능한 서비스입니다.</p>
+
+  <div>
+    <b><u>기술 스택</u></b>
+  </div>
+    <p>  - Dart ⇒ 유저단 </p>
+    <p>  - Provider ⇒ 상태 관리 </p>
+    <p>  - MVVM 패턴 적용</p>    
+  
+  <div>
+    <b><u>기능 개발 및 기여도</u></b>
+  </div>
+    <p> 50 % 기여</p>
+    <p> - firebase 소셜 로그인 (구글 로그인 , 애플 로그인)</p>  
+    <p> - 고민글 작성 , 조회 , 수정 , 삭제</p>
+    <p> - 위로글 작성 , 조회 , 수정 , 삭제</p>
+    <p> - 명언 리스트 조회 (Read)</p>
+    <p> - 명언 배경 리스트 조회 (Read)</p>
+    <p> - 내가 쓴 고민 , 내가 쓴 위로 조회</p>
+    <p> - 내가 받은 위로 조회</p>
+    <p> - 고민글 , 위로글 페이지 네이션</p>
+    <p> - 고민글 검색</p>
+    <p> - 고민글 리스트 태그 필터</p>
+    <p> - Provider 사용</p>
+    <a href="https://apps.apple.com/kr/app/hakunamatata-%EA%B3%A0%EB%AF%BC-%EC%83%81%EB%8B%B4-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EC%95%B1/id6446880691"></a>
 </details>
 <details>
-  <summary><b>3</b></summary>
+  <summary><b>노래방 노래 검색 프로젝트</b></summary>
   <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project7.png?raw=true" alt="프로젝트">
-  <p></p>
-  <p></p>
+ <div>
+    <b><u>프로젝트 소개</u></b>      
+  </div>
+  <p>노래방 API 를 통해서 노래를 검색하는 프로젝트를 만들었습니다.</p>
+
+  <div>
+    <b><u>기술 스택</u></b>
+  </div>
+    <p>  - Dart ⇒ 유저단 </p>
+    <p>  - Provider ⇒ 상태관리 </p>
+    <p>  - MVVM 패턴 적용</p>    
+  
+  <div>
+    <b><u>기능 개발 및 기여도</u></b>
+  </div>
+    <p> 100 % 기여</p>
+    <p> - Dio를 통한 api 연동</p>  
+    <p> - Provider 를 통한 상태관리</p>
+    <p> - 노래 제목, 가수 검색을 통한 리스트 출력</p>
+    <p> - 필터 적용(노래, 가수, 노래 브랜드)</p>
+    
 </details>
 <details>
-  <summary><b></b></summary>
+  <summary><b>짱구 MBTI</b></summary>
   <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project8.png?raw=true" alt="프로젝트">
-  <p></p>
-  <p></p>
-</details>
-<details>
-  <summary><b>3</b></summary>
-  <img src="" alt="프로젝트">
-  <p></p>
-  <p></p>
-</details>
-<details>
-  <summary><b>3</b></summary>
-  <img src="" alt="프로젝트">
-  <p></p>
-  <p></p>
-</details>
+  <div>
+    <b><u>프로젝트 소개</u></b>      
+  </div>
+  <p>mock-data 를 통해 선택한 답변에 대한 mbti 결과를 출력해주는 프로젝트입니다.</p>
 
- -->
+  <div>
+    <b><u>기술 스택</u></b>
+  </div>
+    <p>  - Dart ⇒ 유저단 </p>
+    <p>  - Firebase ⇒ 유저단 </p>
+    <p>  - Provider => 상태관리 </p>
+    <p>  - vue.js ⇒ 관리자단 </p>
+  
+  <div>
+    <b><u>기능 개발 및 기여도</u></b>
+  </div>    
+    <p> - mock 데이터 를 통한 리스트 출력</p>  
+    <p> - Dio 를 통한 API 통신</p>
+    <p> - 선택을 통한 결과 도출</p>
+</details>
 ---
+
 ## 🔗 깃허브
-
-
 
 [SHT-3756 - Overview](https://github.com/sht3756)
 
+---
