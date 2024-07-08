@@ -47,31 +47,41 @@ published: true
 
 중국어 5급 **2019.08**
 
-## Skils
+## Skils Stack
 
-<details>
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+<!-- <details>
   <summary><b>Flutter</b></summary>
   <p> - Provider, Bloc, GetX 상태관리 </p>
-  <p> - </p>
-  <p> - Firebase Auth </p>
+  <p> - Firebase 적용 </p>
 </details>
 
 <details>
-  <summary><b>javascript</b></summary>
+  <summary><b>JavaScript</b></summary>
   <p> - es6 </p>
 </details>
 
 <details>
-  <summary><b>react</b></summary>
+  <summary><b>React</b></summary>
   <p> - Redux, ContextAPI 상태관리 </p>
   <p> - 소셜 로그인, 결제API 연동, 페이지네이션기능 등 적용 가능 </p>
-</details>
+</details> -->
 
 ---
 
 ## Projects [회사]
 
 > 회사에서 진행한 프로젝트입니다.
+
 <details>
   <summary><b>나라면</b></summary>
     <img src="https://raw.githubusercontent.com/sht3756/sht3756.github.io/main/assets/images/project1.jpg" alt="프로젝트">
@@ -87,9 +97,8 @@ published: true
   </div>
     <p>  - Dart ⇒ 유저단 </p>
     <p>  - Firebase ⇒ 유저단 </p>
-    <p>  - Node, Express ⇒ 관리자단 </p>
     <p>  - vue.js ⇒ 관리자단 </p>
-  
+    <p>  - Node, Express ⇒ 관리자단 </p>
   <div>
     <b><u>기능 개발 및 기여도</u></b>
   </div>
@@ -105,7 +114,11 @@ published: true
     <p> - 관리자단 개발</p>        
     <p> - 유저 푸쉬 관리 (토큰, 주제, 즉시, 예약)</p>
     <p> - 유저 구독 관리 (주제 팔로우, 주제 언 팔로우)</p>
-    <p> - 홈 배너 관리</p>
+    <p> - 홈 배너 관리</p>        
+    <button class="about-button" onClick="window.open('https://naramyeon.com/#firstSection','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 소개 페이지</button>
+    <button class="about-button" onClick="window.open('https://apps.apple.com/kr/app/%EB%82%98%EB%9D%BC%EB%A9%B4-%ED%95%98%EB%A3%A8-1%EB%B6%84-%EA%B0%84%ED%8E%B8-%EA%BD%81%ED%85%8C%ED%81%AC/id6444550618','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 애플 스토어</button>
+    <button class="about-button" onClick="window.open('https://play.google.com/store/apps/details?id=com.adriven.naramyeon','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 구글 스토어</button>
+
 </details>
 
 <details>
@@ -152,8 +165,7 @@ published: true
   <div>
     <b><u>기능 개발 및 기여도</u></b>
   </div>
-    <p> 90 % 기여</p>
-    <p> - 90% 이상 기여 (기획, 개발, 리팩토링)</p>  
+    <p> - 90 % 이상 기여</p>
     <p> - 이메일, 소셜 로그인적용 (카카오톡, 네이버, 애플)</p>
     <p> - NHN 웹/앱 결제 API 연동</p>
     <p> - 휴대폰 인증 (CoolSMS)</p>
@@ -184,11 +196,11 @@ published: true
   <div>
     <b><u>기능 개발 및 기여도</u></b>
   </div>
-    <p> 20 % 기여</p>
+    <p> - 20 % 기여</p>
     <p> - 다국어 서비스 적용 (데이터 연동 및 스타일) </p>  
     <p> - Drag&Drop 으로 파일 업로드 기능 적용 (파일 용량 제한(200mb))</p>
     <p> - 파일 포맷 후 다운로드 기능 적용 </p>  
-    <a href="https://www.warpmastering.com/kr/main"></a>
+    <button class="about-button" onClick="window.open('https://www.warpmastering.com/kr/main','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 워프 링크</button>
 </details>
 
 <details>
@@ -209,14 +221,14 @@ published: true
   <div>
     <b><u>기능 개발 및 기여도</u></b>
   </div>
-    <p> 100 % 기여</p>
+    <p> - 100 % 기여</p>
     <p> - 소셜 로그인적용 (카카오톡, 네이버, 애플)</p>
     <p> - CRUD 기능 적용 </p>
     <p> - 페이지네이션 처리 (리스트, 댓글)</p>
     <p> - 추천, 관련 검색어 기능 적용 (구글 자연어 NLP)</p>
     <p> - 공유 기능 적용(카카오 공유)</p>
     <p> - 최근 검색어 기능 적용</p>
-    <a href="https://petwork.kr/"></a>
+    <button class="about-button" onClick="window.open('https://petwork.kr/','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 펫트워크 링크</button>
 </details>
 
 
@@ -243,7 +255,7 @@ published: true
   <div>
     <b><u>기능 개발 및 기여도</u></b>
   </div>
-    <p> 50 % 기여</p>
+    <p> - 50 % 기여</p>
     <p> - firebase 소셜 로그인 (구글 로그인 , 애플 로그인)</p>  
     <p> - 고민글 작성 , 조회 , 수정 , 삭제</p>
     <p> - 위로글 작성 , 조회 , 수정 , 삭제</p>
@@ -255,7 +267,7 @@ published: true
     <p> - 고민글 검색</p>
     <p> - 고민글 리스트 태그 필터</p>
     <p> - Provider 사용</p>
-    <a href="https://apps.apple.com/kr/app/hakunamatata-%EA%B3%A0%EB%AF%BC-%EC%83%81%EB%8B%B4-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EC%95%B1/id6446880691"></a>
+    <button class="about-button" onClick="window.open('https://apps.apple.com/kr/app/hakunamatata-%EA%B3%A0%EB%AF%BC-%EC%83%81%EB%8B%B4-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EC%95%B1/id6446880691','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 하쿠나마타타 링크</button>
 </details>
 <details>
   <summary><b>노래방 노래 검색 프로젝트</b></summary>
@@ -275,7 +287,7 @@ published: true
   <div>
     <b><u>기능 개발 및 기여도</u></b>
   </div>
-    <p> 100 % 기여</p>
+    <p> - 100 % 기여</p>
     <p> - Dio를 통한 api 연동</p>  
     <p> - Provider 를 통한 상태관리</p>
     <p> - 노래 제목, 가수 검색을 통한 리스트 출력</p>
@@ -301,7 +313,8 @@ published: true
   <div>
     <b><u>기능 개발 및 기여도</u></b>
   </div>    
-    <p> - mock 데이터 를 통한 리스트 출력</p>  
+    <p> - 100 % 기여</p>
+    <p> - mock 데이터를 통한 리스트 출력</p>  
     <p> - Dio 를 통한 API 통신</p>
     <p> - 선택을 통한 결과 도출</p>
 </details>
@@ -312,3 +325,29 @@ published: true
 [SHT-3756 - Overview](https://github.com/sht3756)
 
 ---
+<style>
+  .about-button {
+    display: inline-block;
+    padding: 7px 14px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+  }
+  
+  .about-button:hover {background-color: #3e8e41}
+  
+  .about-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  } 
+</style>
+<script>
+<script>
