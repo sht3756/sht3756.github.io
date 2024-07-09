@@ -1,12 +1,11 @@
 ---
 title: "Flutter"
 layout: category
-permalink: /Flutter/Flutter1/
+permalink: /basics/flutter/
 author_profile: true
 taxonomy: Flutter
 sidebar:
-  nav: "flutter"
+  nav: "categories"
 
 published: true
 ---
-

@@ -1,10 +1,7 @@
 # main links
 main:
   - title: "Home"
-    url: null #https://sht3756.github.io/
-
-  # - title: "About"
-  #   url: /about/
+    url: null #https://sht3756.github.io/  
 
   - title: "GitHub"
     url: https://github.com/sht3756
@@ -17,12 +14,29 @@ main:
 
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
+# categories:
+#   - title: "Flutter"
+#     url: /flutter/flutter1/
+
 categories:
-  - title: "Flutter"
-    url: /flutter/flutter1/
-  - title: "C/C++/C#"
-    url: /ccc/ccc1/
-  - title: "etc"
-    url: /categories/categories3/
-  - title: "Categories4"
-    url: /categories/categories4/
+  - title: "Basics"
+    children:
+      - title: "Flutter"
+        url: /basics/flutter/
+      - title: "Vue"
+        url: /basics/vue/        
+
+  - title: "Engines"
+    children:
+      - title: "Unity"
+        url : /engines/unity/
+
+  - title: "Projects"
+    children:
+      - title: "ProjectFlutter"
+        url : /projects/flutter/
+
+  - title: "Etc"
+    children:
+      - title: "Me"
+        url : /etc/me/
