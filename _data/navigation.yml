@@ -27,6 +27,10 @@ categories:
         url: /basics/vue/        
       - title: "CS"
         url: /basics/cs/        
+      - title: "Algorithm"
+        url: /basics/algorithm/
+      - title: "Docker"
+        url: /basics/docker/        
 
   - title: "Engines"
     children:
