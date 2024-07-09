@@ -21,6 +21,8 @@ main:
 categories:
   - title: "Basics"
     children:
+      - title: "Dart"
+        url: /basics/dart/
       - title: "Flutter"
         url: /basics/flutter/
       - title: "Vue"
