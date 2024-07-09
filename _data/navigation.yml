@@ -25,6 +25,8 @@ categories:
         url: /basics/flutter/
       - title: "Vue"
         url: /basics/vue/        
+      - title: "CS"
+        url: /basics/cs/        
 
   - title: "Engines"
     children:
