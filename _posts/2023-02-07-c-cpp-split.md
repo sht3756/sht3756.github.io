@@ -6,13 +6,13 @@ excerpt: "Split()에 대해 작성을 한 내용입니다."
 
 # 해당 카테고리
 categories:
-  - Algorithm
+  - C/C++
 # 태그 
 tags:
-  - [algorithm, split]
+  - [cpp, split]
 
 # 
-permalink: /algorithm/split/
+permalink: /c-cpp/split/
 
 toc: true
 toc_sticky: false

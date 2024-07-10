@@ -6,13 +6,13 @@ excerpt: "C++ 프로그램 설치 및 기본에 대해 작성을 한 내용입�
 
 # 해당 카테고리
 categories:
-  - Algorithm
+  - C/C++
 # 태그 
 tags:
-  - [algorithm, c++, install]
+  - [c++, install]
 
 # 
-permalink: /algorithm/cplus-install/
+permalink: /c-cpp/cpp-install/
 
 toc: true
 toc_sticky: false
