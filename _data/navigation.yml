@@ -34,7 +34,11 @@ categories:
       - title: "Algorithm"
         url: /basics/algorithm/
       - title: "Docker"
-        url: /basics/docker/        
+        url: /basics/docker/      
+      - title: "Network"
+        url: /basics/network/      
+      - title: "OS"
+        url: /basics/os/      
 
   - title: "Engines"
     children:
