@@ -25,6 +25,8 @@ categories:
         url: /basics/dart/
       - title: "Flutter"
         url: /basics/flutter/
+      - title: "Node"
+        url: /basics/node/
       - title: "C/C++"
         url: /basics/c-cpp/
       - title: "Vue"
