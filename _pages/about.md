@@ -1,5 +1,5 @@
 ---
-title: "Hi all! I'm ShinHeetae👋🏻"
+title: "Hi all! I'm Shinheetae👋🏻"
 permalink: /about/
 layout: single
 comments: false
@@ -9,15 +9,14 @@ published: true
 
 <img width=100 height=200 src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/face1.jpg?raw=true">
 
-
 # "안녕하세요👋 즐기는 개발자가 되고 싶은, 신희태 입니다."
 
 **Think Positive!** 항상 긍정의 힘을 믿으며 앞으로 나아갑니다.
 협업을 위해 배려하며, 성장하기 위해 노력합니다.
 
-1년 동안 SI 스타트업에서 업무 하면서 경험 및 업무를 이해도가 높습니다.
+2 년간 SI 에이전씨, 스타트업에서 업무 하면서 경험 및 업무를 이해도가 높습니다.
 
-현재는 Flutter 를 공부하며 스타트업에 재직 중 입니다.
+현재는 Flutter 를 공부중 입니다.
 
 ---
 
@@ -39,15 +38,16 @@ published: true
 
 • SQLD
 
-## **🎓 학력**
+## **🎓 경험 / 교육**
 
-중부대학교 4년제 관광경영 학과 졸업 **2020.08**
+중부대학교 4년제 관광경영 학과 졸업 **2020.08**  
+중국 교환 학생 **2020.02**
 
 ## **🧳 외국어**
 
-중국어 5급 **2019.08**
+중국어 5급(~~현재는 만료~~) **2019.08**
 
-## Skils Stack
+## Skills Stack
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -104,7 +104,7 @@ published: true
   </div>
     <p> - 70% 이상 기여 (기획, 개발, 리팩토링)</p>  
     <p> - GetX, Bloc 상태관리 사용 </p>
-    <p> - Getx -> Bloc 마이그레이션 및 프로젝트 구조 변경 진행</p>        
+    <p> - GetX -> Bloc 마이그레이션 및 프로젝트 구조 변경 진행</p>        
     <p> - 기능 기획 개발(드래그로 인한 응모 선택 및 기능 구현, FCM 기능 기획 및 개발)</p>
     <p> - 홈 - UI 단 기능 개발(리스트 출력, 더보기, 응모 기능, 댓글 기능 개발, 알림 리스트 출력, 더보기)</p>
     <p> - 나라면 - UI 단 기능 개발(리스트 출력, 더보기, 설문조사 기능)</p>
@@ -231,7 +231,6 @@ published: true
     <button class="about-button" onClick="window.open('https://petwork.kr/','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 펫트워크 링크</button>
 </details>
 
-
 ## Projects [개인]
 
 > 개인적으로 진행한 프로젝트이며, 최신 순으로 구성했습니다.
@@ -325,6 +324,7 @@ published: true
 [SHT-3756 - Overview](https://github.com/sht3756)
 
 ---
+
 <style>
   .about-button {
     display: inline-block;
