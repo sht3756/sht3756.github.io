@@ -7,11 +7,11 @@ excerpt: " 에 대해 작성을 한 내용입니다."
 # 해당 카테고리
 categories:
   - Flutter
-# 태그 
+# 태그
 tags:
-  - [flutter, ]
+  - [flutter]
 
-# 
+#
 permalink: /flutter//
 
 toc: true
@@ -20,8 +20,8 @@ toc_sticky: false
 date: 2023-01-00
 # last_modified_at: 0000-00-00
 
-# true 활성 (default), fasle 비활성 
+# true 활성 (default), false 비활성
 published: true
 ---
 
-# 🦥 
+# 🦥
