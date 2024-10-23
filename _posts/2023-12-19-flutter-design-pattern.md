@@ -7,11 +7,11 @@ excerpt: "mvc, mvp,mvvm 디자인 패턴에 대해 간단 작성을 한 내용�
 # 해당 카테고리
 categories:
   - Flutter
-# 태그 
+# 태그
 tags:
   - [flutter, mvc, mvp, mvvm]
 
-# 
+#
 permalink: /flutter/design-pattern/
 
 toc: true
@@ -20,42 +20,42 @@ toc_sticky: false
 date: 2023-12-19
 # last_modified_at: 0000-00-00
 
-# true 활성 (default), fasle 비활성 
-published: true
+# true 활성 (default), fasle 비활성
+published: false
 ---
 
 # 🦥 디자인패턴!
 
 # MVC
 
-***빠른 개발, 기능 역할 직관적*** 
+**_빠른 개발, 기능 역할 직관적_**
 
-***View 와 Model 의존성이 높다***
+**_View 와 Model 의존성이 높다_**
 
 m : 뷰에 필요한 데이터, 비즈니스 로직 집합, 데이터 변경,조작 정의
 
-v :  UI 요소, 옵저버패턴으로 m 관찰
+v : UI 요소, 옵저버패턴으로 m 관찰
 
-c : v,m 중재자 역할, 사용자 요청 처리, m 의 res 데이터 가공 후 v 반환 
+c : v,m 중재자 역할, 사용자 요청 처리, m 의 res 데이터 가공 후 v 반환
 
 <aside>
 💡 순서
 
-1. 사용자 요청 → c → m 을 업데이트 
+1. 사용자 요청 → c → m 을 업데이트
 2. c→ v 선택 (업데이트 된 m)
 3. v 업데이트된 m 로 UI 업데이트
 </aside>
 
 # MVP
 
-***View 와 Controller 의존성 사라짐***
+**_View 와 Controller 의존성 사라짐_**
 
-***View와 Presenter 의존성이 높다***
+**_View와 Presenter 의존성이 높다_**
 
 1. 사용자 요청 action → v
-2. v (데이터 요청) → p 
+2. v (데이터 요청) → p
 3. p (데이터 요청) → m
-4. m (데이터 응답) → p 
+4. m (데이터 응답) → p
 5. p (데이터 가공 후 응답) → v
 6. v 응답받은 데이터 UI 업데이트
 
@@ -63,26 +63,26 @@ c : v,m 중재자 역할, 사용자 요청 처리, m 의 res 데이터 가공 �
 
 테스트 용이
 
-***View 와 ViewModel 사이 의존성 사라짐***
+**_View 와 ViewModel 사이 의존성 사라짐_**
 
-***ViewModel 설계 어려움***
+**_ViewModel 설계 어려움_**
 
 1. 사용자 요청 action → v
-2. v (action 전달) → vm 
-3. vm (데이터 요청) → m 
+2. v (action 전달) → vm
+3. vm (데이터 요청) → m
 4. m (데이터 응답) → vm
 5. vm 응답받은 데이터 가공후 저장
 6. v 는 vm 업데이트 감지해 UI 업데이트
 
-mvc 
+mvc
 
-m 모델타입 정의 +  데이터 비즈니스로직
+m 모델타입 정의 + 데이터 비즈니스로직
 
 v 스크린
 
 c 컨트롤러 + 데이터 가공 (뷰 비즈니스 로직)
 
-mvp 
+mvp
 
 m 모델타입 정의 + 데이터 비즈니스 로직
 
@@ -92,21 +92,19 @@ p 컨트롤러 + 데이터 가공 (뷰 비즈니스 로직)
 
 mvvm
 
-m 
+m
 
 v 스크린
 
-vm 모델 타입 + 데이터 비즈니스 로직,  뷰 상태
+vm 모델 타입 + 데이터 비즈니스 로직, 뷰 상태
 
-|패턴|장점|단점|차이점| 
-|---|---|---|---|
-|MVC|테스트2|테스트3|
-|MVP|뷰와 모델의 의존선이 낮다|프레젠터가 추가되어 복잡해진다.|뷰와 모델의 |
-|MVVM|뷰와모델의 의존성이 낮다|뷰모델이 추가되어 복잡하다|뷰와 모델의 의존성이 뷰모델을 통해 간접적이다|
-
+| 패턴 | 장점                      | 단점                            | 차이점                                        |
+| ---- | ------------------------- | ------------------------------- | --------------------------------------------- |
+| MVC  | 테스트2                   | 테스트3                         |
+| MVP  | 뷰와 모델의 의존선이 낮다 | 프레젠터가 추가되어 복잡해진다. | 뷰와 모델의                                   |
+| MVVM | 뷰와모델의 의존성이 낮다  | 뷰모델이 추가되어 복잡하다      | 뷰와 모델의 의존성이 뷰모델을 통해 간접적이다 |
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/bced9c22-53d7-447a-b941-f50cbcbdea3d/e36ecc47-af2d-4c8a-8f52-8ca8dd3b36f2/Untitled.png)
-
 
 **MVC**
 
