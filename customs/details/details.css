@@ -6,18 +6,35 @@
   transition: color 0.3s ease, background-image 0.3s ease;
 }
 
+.custom-summary:hover {
+  color: transparent; /* 기본 텍스트 색상 숨김 */
+  background-image: linear-gradient(
+    90deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  ); /* 무지개색 그라데이션 */
+  background-clip: text; /* 텍스트만 색상 적용 */
+  -webkit-background-clip: text; /* Webkit 브라우저 지원 */
+}
 details summary::marker {
-  content: "►"; /* 기본 마커(▶) 설정 */
+  content: "👉"; /* 기본 마커(▶) 설정 */
   font-size: 1.2em;
   color: black; /* 마커 색상 */
   margin-right: 5px; /* 마커와 텍스트 간 간격 */
   transition: transform 1s ease; /* 애니메이션 적용 */
+  /* ⌯' ꇴ '⌯ಣ */
 }
 
 /* details가 열렸을 때 ::marker 변경 */
 details[open] summary::marker {
-  content: "▼"; /* 열린 상태의 마커 (▼) */
+  content: "👇"; /* 열린 상태의 마커 (▼) */
   transition: transform 1s ease; /* 애니메이션 적용 */
+  /* ⎚⩊⎚ -✧   */
 }
 
 .custom-summary.rainbow {
