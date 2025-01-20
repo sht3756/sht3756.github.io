@@ -1,0 +1,45 @@
+.custom-summary {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: color 0.3s ease, background-image 0.3s ease;
+}
+
+details summary::marker {
+  content: "►"; /* 기본 마커(▶) 설정 */
+  font-size: 1.2em;
+  color: black; /* 마커 색상 */
+  margin-right: 5px; /* 마커와 텍스트 간 간격 */
+  transition: transform 1s ease; /* 애니메이션 적용 */
+}
+
+/* details가 열렸을 때 ::marker 변경 */
+details[open] summary::marker {
+  content: "▼"; /* 열린 상태의 마커 (▼) */
+  transition: transform 1s ease; /* 애니메이션 적용 */
+}
+
+.custom-summary.rainbow {
+  color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.custom-content {
+  border: 2px dashed #ffa500;
+  background-color: #fffacd;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
