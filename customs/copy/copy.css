@@ -1,0 +1,63 @@
+/* 모달 백그라운드(회색 음영) */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none; /* 기본적으로 숨김 */
+}
+
+/* 모달 스타일 */
+.ascii-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 1);
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: monospace; /* 아스키 코드에 적합한 폰트 */
+  font-size: 16px;
+  white-space: pre-wrap; /* 아스키 코드 줄바꿈 유지 */
+  z-index: 1000;
+  display: none; /* 기본적으로 숨김 */
+  max-width: 90%; /* 모달 너비 제한 */
+  max-height: 90%; /* 모달 높이 제한 */
+  overflow: auto; /* 내용이 많으면 스크롤 */
+}
+
+/* 모달 활성화 시 보이게 설정 */
+.modal-overlay.active,
+.ascii-modal.active {
+  display: block;
+}
+
+/* 백그라운드 스크롤 비활성화 */
+.no-scroll {
+  overflow: hidden;
+  height: 100%; /* 화면 크기 고정 */
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.close-modal:hover {
+  background: #555;
+}
