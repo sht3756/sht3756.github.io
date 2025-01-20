@@ -50,7 +50,7 @@ published: true
     NFC나 RFID 기술을 사용할 때 유용하게 사용되는 주파수이다!</p>">
 </custom-details>
 
-# RFID는 무엇인가?
+# NFC??, RFID??
 
 <p align="center">
 <img width="516" alt="nfc7" src="https://github.com/user-attachments/assets/473327bc-e019-4b44-b63d-5892a86fcfab" />
@@ -65,6 +65,8 @@ published: true
 
 NFC 는 기본적으로 RFID 기술중 프록시미티 카드 기술인 ISO/IEC 14443 을 기반으로 만들어 졌다.  
 <u>그래서 RFID 와 NFC 는 기술적으로 큰 차이가 없다</u>
+
+## 차이점
 
 주파수
 
@@ -289,3 +291,14 @@ NFC 는 기본적으로 RFID 기술중 프록시미티 카드 기술인 ISO/IEC 
 - 스마트폰
 - 닌텐도의 아미보
 - 카메라 EOS800D 전송기능
+
+<custom-details summary="ECC??" content="
+
+<p>타원 곡선 암호화 (ECC) 타원 곡선의 수학적 속성을 사용해 공개키 암호화시스템을 생성하는 방식</br>
+ECC는 한방향으로 계산은 쉽지만, 되돌리기는 어렵다.</br>
+ECC 의 경우, 랜덤 타원 곡선 요소의 이산 로그, 타원곡선이산로그 문제를 계산할수 없다는 어려움이 있다.</br>
+그만큼 타원 곡선 디지털 서명 알고리즘을 사용하는 공개키 암호화가 널리 사용되는 서명 알고리즘이다.</br></br>
+<a href='https://www.ssl.com/ko/%EC%9E%90%EC%A3%BC-%EB%AC%BB%EB%8A%94-%EC%A7%88%EB%AC%B8/%ED%83%80%EC%9B%90-%EA%B3%A1%EC%84%A0-%EC%95%94%ED%98%B8%ED%99%94-ECC-%EB%9E%80/' target='_blank'>ECC 더 자세히보기!</a>
+
+</p>
+"/>
