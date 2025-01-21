@@ -7,6 +7,8 @@ comments: false
 published: true
 ---
 
+<script src="/customs/loader.js"></script>
+
 <img width=100 height=200 src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/face1.jpg?raw=true">
 
 # "안녕하세요👋 즐기는 개발자가 되고 싶은, 신희태 입니다."
@@ -89,10 +91,9 @@ JS 프레임워크를 활용한 반응형 웹 UI개발자 양성과정 **2020.05
 
 > 회사에서 진행한 프로젝트입니다.
 
-<details>
-  <summary><b>나라면</b></summary>
-    <img src="https://raw.githubusercontent.com/sht3756/sht3756.github.io/main/assets/images/project1.jpg" alt="프로젝트">
-  
+<custom-details summary="나라면" content="
+<img src='https://raw.githubusercontent.com/sht3756/sht3756.github.io/main/assets/images/project1.jpg' alt='프로젝트'>
+
   <div>
     <b><u>프로젝트 소개</u></b>      
   </div>
@@ -122,15 +123,14 @@ JS 프레임워크를 활용한 반응형 웹 UI개발자 양성과정 **2020.05
     <p> - 유저 푸쉬 관리 (토큰, 주제, 즉시, 예약)</p>
     <p> - 유저 구독 관리 (주제 팔로우, 주제 언 팔로우)</p>
     <p> - 홈 배너 관리</p>        
-    <button class="about-button" onClick="window.open('https://naramyeon.com/#firstSection','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 소개 페이지</button>
-    <button class="about-button" onClick="window.open('https://apps.apple.com/kr/app/%EB%82%98%EB%9D%BC%EB%A9%B4-%ED%95%98%EB%A3%A8-1%EB%B6%84-%EA%B0%84%ED%8E%B8-%EA%BD%81%ED%85%8C%ED%81%AC/id6444550618','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 애플 스토어</button>
-    <button class="about-button" onClick="window.open('https://play.google.com/store/apps/details?id=com.adriven.naramyeon','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 구글 스토어</button>
+    <button class='about-button' onClick=window.open('https://naramyeon.com/#firstSection','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');>🔗 소개 페이지</button>
+    <button class='about-button' onClick=window.open('https://apps.apple.com/kr/app/%EB%82%98%EB%9D%BC%EB%A9%B4-%ED%95%98%EB%A3%A8-1%EB%B6%84-%EA%B0%84%ED%8E%B8-%EA%BD%81%ED%85%8C%ED%81%AC/id6444550618','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');>🔗 애플 스토어</button>
+    <button class='about-button' onClick=window.open('https://play.google.com/store/apps/details?id=com.adriven.naramyeon','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');>🔗 구글 스토어</button>">
+  
+</custom-details>
 
-</details>
-
-<details>
-  <summary><b>국룰 (KRule)</b></summary>
-  <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project2.jpeg?raw=true" alt="프로젝트">
+<custom-details summary="국룰 (KRule)" content="
+<img src='https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project2.jpeg?raw=true' alt='프로젝트'>
 
   <div>
     <b><u>프로젝트 소개</u></b>      
@@ -150,12 +150,14 @@ JS 프레임워크를 활용한 반응형 웹 UI개발자 양성과정 **2020.05
     <p> 글 등록 (레시피)</p>
     <p> 리스트 출력 (장보기, 제철음식, 전국 특산품, 라이브 쇼핑, 레시피, 선물 상품관)</p>
     <p> 페이지 네이션 적용 (무한 스크롤- Intersection Observer)</p>
-    
-</details>
+">
+</custom-details>
 
-<details>
-  <summary><b>메르카도 (Mercado)</b></summary>
-  <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project3.png?raw=true" alt="프로젝트">
+<custom-details summary="메르카도 (Mercado)" content="
+
+<p style='text-align: center;'>
+<img src='https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project3.png?raw=true' alt='프로젝트' height=300 width=200>
+</p>
   <div>
     <b><u>프로젝트 소개</u></b>      
   </div>
@@ -164,11 +166,8 @@ JS 프레임워크를 활용한 반응형 웹 UI개발자 양성과정 **2020.05
   <div>
     <b><u>기술 스택</u></b>
   </div>
-    <p>  - Dart ⇒ 유저단 </p>
-    <p>  - Firebase ⇒ 유저단 </p>
-    <p>  - Node, Express ⇒ 관리자단 </p>
-    <p>  - vue.js ⇒ 관리자단 </p>
-  
+    <p>  - React ⇒ 유저단 </p>
+
   <div>
     <b><u>기능 개발 및 기여도</u></b>
   </div>
@@ -180,14 +179,14 @@ JS 프레임워크를 활용한 반응형 웹 UI개발자 양성과정 **2020.05
     <p> - 임시저장 기능 적용</p>
     <p> - 다음 우체국 API 적용 및 배송위치 추적</p>
     <p>- 페이지네이션 적용 (ReactQuery)</p>
-</details>
+">
+</custom-details>
 
-<details>
+<custom-details summary="워프 (Warp)" content="
 
-  <summary><b>워프 (Warp) </b></summary>
-  <div style="text-align:center;">
-  <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project4.png?raw=true" alt="프로젝트" >
-  </div>
+<p style='text-align: center;'>
+<img src='https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project4.png?raw=true' alt='프로젝트'>
+</p>
   <div>
     <b><u>프로젝트 소개</u></b>      
   </div>
@@ -207,12 +206,13 @@ JS 프레임워크를 활용한 반응형 웹 UI개발자 양성과정 **2020.05
     <p> - 다국어 서비스 적용 (데이터 연동 및 스타일) </p>  
     <p> - Drag&Drop 으로 파일 업로드 기능 적용 (파일 용량 제한(200mb))</p>
     <p> - 파일 포맷 후 다운로드 기능 적용 </p>  
-    <button class="about-button" onClick="window.open('https://www.warpmastering.com/kr/main','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 워프 링크</button>
-</details>
+    <button class='about-button' onClick=window.open('https://www.warpmastering.com/kr/main','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');>🔗 워프 링크</button>
+">
+</custom-details>
 
-<details>
-  <summary><b>펫트워크 (PetWork)</b></summary>
-  <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project5.png?raw=true" alt="프로젝트">
+<custom-details summary="펫트워크 (PetWork)" content="
+<img src='https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project5.png?raw=true' alt='프로젝트'>
+
   <div>
     <b><u>프로젝트 소개</u></b>      
   </div>
@@ -235,16 +235,20 @@ JS 프레임워크를 활용한 반응형 웹 UI개발자 양성과정 **2020.05
     <p> - 추천, 관련 검색어 기능 적용 (구글 자연어 NLP)</p>
     <p> - 공유 기능 적용(카카오 공유)</p>
     <p> - 최근 검색어 기능 적용</p>
-    <button class="about-button" onClick="window.open('https://petwork.kr/','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 펫트워크 링크</button>
-</details>
+    <button class='about-button;' onClick=window.open('https://petwork.kr/','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');>🔗 펫트워크 링크</button>
+">
+</custom-details>
 
 ## Projects [개인]
 
 > 개인적으로 진행한 프로젝트이며, 최신 순으로 구성했습니다.
 
-<details>
-  <summary><b>하쿠나마타타 (HakunaMatata)</b></summary>
-  <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project6.png?raw=true" alt="프로젝트">
+<custom-details summary="하쿠나마타타 (HakunaMatata)" content="
+
+<p style='text-align: center;'>
+<img src='https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project6.png?raw=true' alt='프로젝트'>
+</p>
+
  <div>
     <b><u>프로젝트 소개</u></b>      
   </div>
@@ -273,11 +277,13 @@ JS 프레임워크를 활용한 반응형 웹 UI개발자 양성과정 **2020.05
     <p> - 고민글 검색</p>
     <p> - 고민글 리스트 태그 필터</p>
     <p> - Provider 사용</p>
-    <button class="about-button" onClick="window.open('https://apps.apple.com/kr/app/hakunamatata-%EA%B3%A0%EB%AF%BC-%EC%83%81%EB%8B%B4-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EC%95%B1/id6446880691','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">🔗 하쿠나마타타 링크</button>
-</details>
-<details>
-  <summary><b>노래방 노래 검색 프로젝트</b></summary>
-  <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project7.png?raw=true" alt="프로젝트">
+    <button class='about-button' onClick=window.open('https://apps.apple.com/kr/app/hakunamatata-%EA%B3%A0%EB%AF%BC-%EC%83%81%EB%8B%B4-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0-%EC%95%B1/id6446880691','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');>🔗 하쿠나마타타 링크</button>
+">
+</custom-details>
+
+<custom-details summary="노래방 노래 검색" content="
+<img src='https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project7.png?raw=true' alt='프로젝트'>
+
  <div>
     <b><u>프로젝트 소개</u></b>      
   </div>
@@ -298,11 +304,12 @@ JS 프레임워크를 활용한 반응형 웹 UI개발자 양성과정 **2020.05
     <p> - Provider 를 통한 상태관리</p>
     <p> - 노래 제목, 가수 검색을 통한 리스트 출력</p>
     <p> - 필터 적용(노래, 가수, 노래 브랜드)</p>
-    
-</details>
-<details>
-  <summary><b>짱구 MBTI</b></summary>
-  <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project8.png?raw=true" alt="프로젝트">
+">
+</custom-details>
+<custom-details summary="짱구 MBTI" content="
+<p style='text-align: center;'>
+<img src='https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project8.png?raw=true' alt='프로젝트' height=300 width=200>
+</p>
   <div>
     <b><u>프로젝트 소개</u></b>      
   </div>
@@ -323,7 +330,8 @@ JS 프레임워크를 활용한 반응형 웹 UI개발자 양성과정 **2020.05
     <p> - mock 데이터를 통한 리스트 출력</p>  
     <p> - Dio 를 통한 API 통신</p>
     <p> - 선택을 통한 결과 도출</p>
-</details>
+">
+</custom-details>
 ---
 
 ## 🔗 깃허브
@@ -356,5 +364,3 @@ JS 프레임워크를 활용한 반응형 웹 UI개발자 양성과정 **2020.05
     transform: translateY(4px);
   } 
 </style>
-<script>
-<script>
