@@ -4,6 +4,8 @@ const resources = [
   { type: "js", url: "/customs/details/details.js" },
   { type: "css", url: "/customs/copy/copy.css" },
   { type: "js", url: "/customs/copy/copy.js" },
+  { type: "css", url: "/customs/code/code.css" },
+  { type: "js", url: "/customs/code/code.js" },
 ];
 
 // 리소스 파일을 동적으로 로드

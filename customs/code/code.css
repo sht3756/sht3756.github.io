@@ -1,0 +1,93 @@
+/* custom-code 내부 pre 태그 스타일 */
+custom-code pre {
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-family: "Courier New", monospace;
+  white-space: pre;
+  overflow-x: auto;
+  border-left: 5px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 공통 코드 스타일 */
+pre[class*="language-"] {
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-family: "Courier New", monospace;
+  white-space: pre;
+  overflow-x: auto;
+  border-left: 5px solid transparent;
+  /* background-color: #2d2d2d; */
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Bash 스타일 */
+pre.language-bash {
+  border-left-color: #28d03d;
+}
+
+/* Dart 스타일 */
+pre.language-dart {
+  border-left-color: #31b6f6;
+}
+
+/* JavaScript 스타일 */
+pre.language-js {
+  border-left-color: #efda1b;
+}
+
+/* TypeScript 스타일 */
+pre.language-ts {
+  border-left-color: #2f73bf;
+}
+
+/* C 스타일 */
+pre.language-c {
+  border-left-color: #6170c1;
+}
+
+/* C++ 스타일 */
+pre.language-cpp {
+  border-left-color: #2b4977;
+}
+
+/* C# 스타일 */
+pre.language-csharp {
+  border-left-color: #9e72d8;
+}
+
+/* Java 스타일 */
+pre.language-java {
+  border-left-color: #ea3635;
+}
+
+/* Kotlin 스타일 */
+pre.language-kotlin {
+  border-left-color: #6b7aff;
+}
+
+/* Swift 스타일 */
+pre.language-swift {
+  border-left-color: #fc663e;
+}
+
+/* Yaml 스타일 */
+pre.language-yaml {
+  border-left-color: #000;
+}
+
+/* 코드 블록 호버 효과 */
+pre[class*="language-"]:hover {
+  transform: scale(1.01);
+  border-left-width: 7px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 코드 블록 선택 시 강조 */
+pre[class*="language-"]:focus-within {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
