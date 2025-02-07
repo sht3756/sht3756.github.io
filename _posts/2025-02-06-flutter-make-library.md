@@ -24,6 +24,8 @@ date: 2025-02-06
 published: true
 ---
 
+<script src="/customs/loader.js"></script>
+
 # 🦥 첫 라이브러리
 
 갑자기 이전 포스팅 만들다가 (=플랫폼마다 UI 다르게 보여주기) 참조를 어떻게 할까? 고민을 했다.
@@ -36,10 +38,13 @@ published: true
 예시를 작성해야겠다.
 
 📂 main.dart
+
+```dart
 library my_library; // 라이브러리 선언
 
 part 'file1.dart';
 part 'file2.dart';
+```
 
 📂 file1.dart
 
@@ -67,16 +72,16 @@ void functionB() {
 - file1.dart 와 file2.dart 안의 함수 및 클래스를 서로 참조 가능함.
 
 단점
-1️⃣ 파일이 많아지면 의존성 관리가 어려움
+1️. 파일이 많아지면 의존성 관리가 어려움
 part 파일끼리 서로 참조할 수 있기 때문에 파일 간의 의존성이 꼬일 가능성이 높음.
 하나의 part를 수정하면 다른 여러 개의 part도 영향을 받을 수 있음.
 
-2️⃣ 파일 로딩 문제
+2️. 파일 로딩 문제
 part 파일들은 별도의 개별 라이브러리처럼 로드되지 않음.
 main.dart가 로드될 때, 모든 part 파일들이 한 번에 로드됨.
 즉, 불필요한 코드도 한꺼번에 메모리에 올라갈 수 있음 (성능 저하 가능).
 
-3️⃣ import보다 part가 더 제한적임
+3️. import보다 part가 더 제한적임
 import는 모듈화가 가능하지만, part는 특정 라이브러리 내부에서만 사용 가능.
 즉, 재사용이 어렵고, 유지보수가 불편해짐.
 
@@ -126,19 +131,26 @@ part는 정말 하나의 파일처럼 동작해서, 모든 part 파일이 한 �
 
 나는 누구와 공유할 생각이 없어서 `Private Repo` 로 생성할거다. 만약 누구랑 공유 할거면 그때서야 Public 으로 변경 or ssh key 를 추가해주는 방식으로 진행하면 된다.
 
-<custom-details summary="Git SSH 키를 추가" content="
+<custom-details summary="Git SSH 키를 추가" content=
+"
 
-1. SSH 키 생성하기
+  <h4>
+  1. SSH 키 생성하기
+  </h4>
 
-```bash
-ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
-```
+  <custom-code class='bash'> 
+  ssh-keygen -t rsa -b 4096 -C 'your-email@example.com'
+  </custom-code>
 
-2. 깃허브에 SSH 등록
-   Settings -> SSH and GPG keys -> New SSH Key
-3. 그리고 5. 적용! 부분에서 시작하면 된다.
-
-">
+  <h4>
+  2. 깃허브에 SSH 등록
+    Settings -> SSH and GPG keys -> New SSH Key
+  </h4>
+  <h4>
+  3. 그리고 5. 적용! 부분에서 시작하면 된다.
+  </h4>
+"
+></custom-details>
 
 ## 2. 첫번째 라이브러리 프로젝트 만들기
 
@@ -150,7 +162,7 @@ flutter create --template=package platform_widgets
 - `platform_widgets` 폴더안에 lib/ 자동 생성
 - `src/` 생성해서 그 안에 추가할 함수 및 클래스 추가
 
-```
+```bash
 platform_widgets/
  ├── lib/
  │    ├── platform_widgets.dart  <-- 이 파일에서 export 관리
@@ -167,7 +179,7 @@ platform_widgets/
 
 `platform_widgets/pubspec.yaml`
 
-```
+```yaml
 name: platform_widgets
 description: "플러터 플랫폼 별 UI (iOS & Android)"
 version: 0.0.1 // 버전
@@ -223,13 +235,15 @@ dependencies:
       ref: main
 ```
 
-## 완료
+```bash
+flutter pub get
+```
 
-flutter pub get 실행 후 사용하면 된다!
+## 완료
 
 ```dart
 import 'package:platform_widgets/platform_widgets.dart';
-
 ```
 
+잘 적용된 모습!
 <img width="559" alt="Image" src="https://github.com/user-attachments/assets/2e4f7a11-7bfc-436c-8275-934c45e04464" />

@@ -24,4 +24,6 @@ date: 2023-01-00
 published: true
 ---
 
+<script src="/customs/loader.js"></script>
+
 # 🦥
