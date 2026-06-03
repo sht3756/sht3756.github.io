@@ -145,6 +145,93 @@ published: true
 
         <article class="pf-card" tabindex="0" role="button" aria-haspopup="dialog">
           <div class="pf-card__thumb">
+            <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project2.jpeg?raw=true" alt="국룰" />
+          </div>
+          <div class="pf-card__body">
+            <h3 class="pf-card__title">국룰 (KRule)</h3>
+            <p class="pf-card__summary">제철 음식·특산품 추천 산지직송 플랫폼 앱. API 연동 중심 20% 기여.</p>
+            <div class="pf-tags"><span>React</span><span>TypeScript</span><span>MobX</span></div>
+            <span class="pf-card__more">자세히 보기 →</span>
+          </div>
+          <template class="pf-card__detail">
+            <h4>프로젝트 소개</h4>
+            <p>제철 음식과 지역별 특산품 추천, 라이브 쇼핑, 레시피 제공, 선물하기 서비스를 제공하는 산지직송 플랫폼 앱입니다. (현재 미오픈)</p>
+            <h4>기술 스택</h4>
+            <ul>
+              <li>React · TypeScript (유저단)</li>
+              <li>MobX (상태 관리)</li>
+            </ul>
+            <h4>기여도 · 주요 작업 <em>(20%)</em></h4>
+            <ul>
+              <li>퇴사 직전 합류, 빠른 API 연동 위주로 진행</li>
+              <li>레시피 글 등록 기능</li>
+              <li>리스트 출력 (장보기·제철음식·전국 특산품·라이브 쇼핑·레시피·선물 상품관)</li>
+              <li>무한 스크롤 페이지네이션 (Intersection Observer)</li>
+            </ul>
+          </template>
+        </article>
+
+        <article class="pf-card" tabindex="0" role="button" aria-haspopup="dialog">
+          <div class="pf-card__thumb">
+            <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project3.png?raw=true" alt="메르카도" />
+          </div>
+          <div class="pf-card__body">
+            <h3 class="pf-card__title">메르카도 (Mercado)</h3>
+            <p class="pf-card__summary">레시피·재료 배송 커뮤니티. 90% 이상 기여, 결제·인증·배송 추적 구현.</p>
+            <div class="pf-tags"><span>React</span><span>ReactQuery</span><span>OAuth</span></div>
+            <span class="pf-card__more">자세히 보기 →</span>
+          </div>
+          <template class="pf-card__detail">
+            <h4>프로젝트 소개</h4>
+            <p>요리 관련 레시피를 제공하고 재료 배송 서비스를 다루는 커뮤니티 페이지입니다.</p>
+            <h4>기술 스택</h4>
+            <ul>
+              <li>React (유저단)</li>
+            </ul>
+            <h4>기여도 · 주요 작업 <em>(90% 이상)</em></h4>
+            <ul>
+              <li>이메일 · 소셜 로그인 (카카오톡 · 네이버 · 애플)</li>
+              <li>NHN 웹/앱 결제 API 연동</li>
+              <li>휴대폰 인증 (CoolSMS)</li>
+              <li>CRUD 적용 (리스트 출력 · 삭제 · 수정), 임시저장 기능</li>
+              <li>다음 우체국 API 적용 및 배송 위치 추적</li>
+              <li>페이지네이션 (React Query)</li>
+            </ul>
+          </template>
+        </article>
+
+        <article class="pf-card" tabindex="0" role="button" aria-haspopup="dialog">
+          <div class="pf-card__thumb">
+            <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project4.png?raw=true" alt="워프" />
+          </div>
+          <div class="pf-card__body">
+            <h3 class="pf-card__title">워프 (Warp)</h3>
+            <p class="pf-card__summary">음원 마스터링 홈페이지. 다국어·드래그 업로드·다운로드 기능 구현.</p>
+            <div class="pf-tags"><span>React</span><span>Context API</span><span>i18n</span></div>
+            <span class="pf-card__more">자세히 보기 →</span>
+          </div>
+          <template class="pf-card__detail">
+            <h4>프로젝트 소개</h4>
+            <p>음원 마스터링 홈페이지입니다. 원하는 음원을 첨부해 믹싱하거나 리듬을 변경할 수 있습니다.</p>
+            <h4>기술 스택</h4>
+            <ul>
+              <li>React (유저단)</li>
+              <li>Context API (상태 관리)</li>
+            </ul>
+            <h4>기여도 · 주요 작업 <em>(20%)</em></h4>
+            <ul>
+              <li>다국어 서비스 적용 (데이터 연동 및 스타일)</li>
+              <li>Drag &amp; Drop 파일 업로드 (용량 제한 200MB)</li>
+              <li>파일 포맷 후 다운로드 기능</li>
+            </ul>
+            <div class="pf-dialog__links">
+              <a href="https://www.warpmastering.com/kr/main" target="_blank" rel="noopener">워프 링크 →</a>
+            </div>
+          </template>
+        </article>
+
+        <article class="pf-card" tabindex="0" role="button" aria-haspopup="dialog">
+          <div class="pf-card__thumb">
             <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project5.png?raw=true" alt="펫트워크" />
           </div>
           <div class="pf-card__body">
@@ -175,43 +262,53 @@ published: true
           </template>
         </article>
 
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PERSONAL PROJECTS ============ -->
+  <section class="pf-section">
+    <div class="pf-section__head">
+      <span class="pf-num">05</span>
+      <h2 class="pf-section__title">개인 프로젝트</h2>
+    </div>
+    <div class="pf-section__body">
+      <div class="pf-grid">
+
         <article class="pf-card" tabindex="0" role="button" aria-haspopup="dialog">
           <div class="pf-card__thumb">
-            <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project6.png?raw=true" alt="하쿠나마타타" />
+            <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project9.png?raw=true" alt="CRM 프로젝트" />
           </div>
           <div class="pf-card__body">
-            <h3 class="pf-card__title">하쿠나마타타</h3>
-            <p class="pf-card__summary">익명 고민 상담 커뮤니티 앱. MVVM 패턴 적용, 소셜 로그인 구현.</p>
-            <div class="pf-tags"><span>Flutter</span><span>Provider</span><span>Firebase</span></div>
+            <h3 class="pf-card__title">CRM 프로젝트</h3>
+            <p class="pf-card__summary">영업 조직용 통합 CRM 웹앱. 고객·내방·콜백·마감·공지·프로모션 관리 구현.</p>
+            <div class="pf-tags"><span>Flutter</span><span>Supabase</span><span>BLoC</span></div>
             <span class="pf-card__more">자세히 보기 →</span>
           </div>
           <template class="pf-card__detail">
             <h4>프로젝트 소개</h4>
-            <p>고민을 이야기하고 위로를 전하는 익명 고민 상담 커뮤니티 앱입니다. 고민님이 글을 작성하면 위로님이 따듯한 말을 전할 수 있고, 위로의 말은 작성자인 고민님만 확인할 수 있습니다.</p>
+            <p>영업 조직(영업직 · 부팀장 · 본부장 · 관리자)이 사용하는 통합 CRM 웹 애플리케이션입니다. 고객 DB 관리부터 내방 일정, 콜백, 일일 마감, 공지·프로모션까지 영업 업무 전반을 한곳에서 처리하도록 설계했습니다. 역할 기반 권한으로 영업직은 본인 담당 고객만, 관리자는 전체를 관리합니다.</p>
             <h4>기술 스택</h4>
             <ul>
-              <li>Dart (유저단)</li>
-              <li>Provider (상태 관리) · MVVM 패턴</li>
+              <li>Flutter (반응형 웹 · 접이식 사이드바)</li>
+              <li>Supabase (Auth · PostgreSQL · Storage, RLS 권한 정책)</li>
+              <li>flutter_bloc (Cubit / BLoC 상태 관리)</li>
+              <li>go_router (라우팅 · 인증 가드)</li>
+              <li>table_calendar · flutter_quill (캘린더 · 리치 텍스트 에디터)</li>
             </ul>
-            <h4>기여도 · 주요 작업 <em>(50%)</em></h4>
+            <h4>기여도 · 주요 작업 <em>(100% · 개인)</em></h4>
             <ul>
-              <li>Firebase 소셜 로그인 (구글 · 애플)</li>
-              <li>고민글 · 위로글 CRUD</li>
-              <li>명언 · 배경 리스트 조회, 내가 쓴/받은 글 조회</li>
-              <li>고민글 · 위로글 페이지네이션</li>
-              <li>고민글 검색 · 태그 필터</li>
+              <li>역할 기반 인증·권한 (영업직 · 관리자 · 개발자, 승인제 가입, Supabase RLS)</li>
+              <li>고객 관리: 리스트·상세, 영업 상태(미컨택→컨택→가입→유입→입금), DB 배정·인계, 검색·페이지네이션</li>
+              <li>내방 관리: 내방 일정·지원 인력(부팀장/본부장) 선택, 이력 자동 기록</li>
+              <li>콜백: 통화 예약 시간 선택, 당일 알림(완료·취소·연장)</li>
+              <li>캘린더: 일정 CRUD, 내방 일정 가져오기, 색상·레인 표시</li>
+              <li>일일 마감 / 관리자 마감 집계</li>
+              <li>메모: 폴더 분류·중요도, Quill 리치 텍스트 작성</li>
+              <li>공지사항: 작성·좋아요·커버 이미지 업로드·대시보드 핀 고정</li>
+              <li>프로모션: 등록·달성자 관리, 대시보드 위젯 통합</li>
             </ul>
-            <div class="pf-dialog__links">
-              <a href="https://apps.apple.com/kr/app/id6446880691" target="_blank" rel="noopener">App Store →</a>
-            </div>
           </template>
-        </article>
-
-        <article class="pf-card pf-card--empty">
-          <div class="pf-card__body">
-            <h3 class="pf-card__title">새 프로젝트</h3>
-            <p class="pf-card__summary">여기에 프로젝트 내용을 채워주세요.</p>
-          </div>
         </article>
 
       </div>
