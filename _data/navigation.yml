@@ -1,7 +1,10 @@
 # main links
 main:
   - title: "Home"
-    url: null #https://sht3756.github.io/  
+    url: null #https://sht3756.github.io/
+
+  - title: "Portfolio"
+    url: /portfolio/
 
   - title: "GitHub"
     url: https://github.com/sht3756

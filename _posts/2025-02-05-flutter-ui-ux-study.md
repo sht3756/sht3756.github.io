@@ -137,3 +137,6 @@ UI 차이가 크지 않고, 한 곳에서만 쓰이면 Platform.isIOS 사용!
 ## Android
 
 ## iOS
+
+갑자기 코드에 추가하려다가 라이브러리로 만들어서 사용해야겠다란 생각이 들어서 만들었다.
+[만드는 방법은 여기로!](https://sht3756.github.io/flutter/make-library/)

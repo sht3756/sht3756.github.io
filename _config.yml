@@ -98,7 +98,7 @@ analytics:
 
 # Site Author
 author:
-  name: "your name here" # 블로그 닉네임
+  name: "신희태" # 블로그 닉네임
   avatar: "https://avatars.githubusercontent.com/u/83467914?s=400&u=cb77b74f8cce4012d5a2032dd72c86098762a042&v=4" # 블로그 프로필 사진
   #   bio              : "hi all!"
   location: "Incheon, Korea"
@@ -107,7 +107,7 @@ author:
   links: # 사이트 링크
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "shin103502.pref@gmail.com"    
+      url: "shin103502.pref@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sht3756"
@@ -130,7 +130,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sht3756"
-    # - label: "Twitter"  
+    # - label: "Twitter"
     # icon: "fab fa-fw fa-twitter-square"
     # url:
     # - label: "Facebook"
