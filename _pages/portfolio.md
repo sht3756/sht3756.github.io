@@ -36,7 +36,7 @@ published: true
     <div class="pf-section__body">
       <p class="pf-lead">
         <!-- TODO: 자기소개 -->
-        2년 이상 SI 에이전시와 스타트업에서 웹·앱 서비스를 개발하며 기획부터 런칭까지 전 과정을 경험했습니다.
+        3년 이상 SI 에이전시와 스타트업에서 웹·앱 서비스를 개발하며 기획부터 런칭까지 전 과정을 경험했습니다.
         사용자 경험을 고민하고, 더 나은 구조를 위해 끊임없이 리팩토링하는 개발자입니다.
       </p>
     </div>
@@ -75,7 +75,7 @@ published: true
     <div class="pf-section__body">
       <ul class="pf-career">
         <li>
-          <span class="pf-career__period">2025.03 — 2025.09</span>
+          <span class="pf-career__period">2025.03 — 2025.09</span> 
           <div>
             <h3>뉴하이퍼</h3>
             <p>아이돌 굿즈 엔터 앱 · 고다지 축구 앱 (앱 런칭 오픈 멤버)</p>
@@ -264,6 +264,7 @@ published: true
 
       </div>
     </div>
+
   </section>
 
   <!-- ============ PERSONAL PROJECTS ============ -->
@@ -275,7 +276,8 @@ published: true
     <div class="pf-section__body">
       <div class="pf-grid">
 
-        <article class="pf-card" tabindex="0" role="button" aria-haspopup="dialog">
+        <article class="pf-card" tabindex="0" role="button" aria-haspopup="dialog"
+          data-images="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project9.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project9-1.png?raw=true">
           <div class="pf-card__thumb">
             <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project9.png?raw=true" alt="CRM 프로젝트" />
           </div>
@@ -308,18 +310,40 @@ published: true
               <li>공지사항: 작성·좋아요·커버 이미지 업로드·대시보드 핀 고정</li>
               <li>프로모션: 등록·달성자 관리, 대시보드 위젯 통합</li>
             </ul>
+            <h4>데모 계정 <em>(복사 후 로그인)</em></h4>
+            <div class='pf-cred'>
+              <div class='pf-cred__row'>
+                <span class='pf-cred__label'>ID</span>
+                <code>gmlxo1514@naver.com</code>
+                <button type='button' class='pf-cred__copy' data-copy='gmlxo1514@naver.com'>복사</button>
+              </div>
+              <div class='pf-cred__row'>
+                <span class='pf-cred__label'>PW</span>
+                <code>123456</code>
+                <button type='button' class='pf-cred__copy' data-copy='123456'>복사</button>
+              </div>
+            </div>
+            <div class='pf-dialog__links'>
+              <a href='https://custom-sonamoo-crm.vercel.app/#/login' target='_blank' rel='noopener'>CRM 바로가기 →</a>
+            </div>
           </template>
         </article>
 
       </div>
     </div>
+
   </section>
 
   <!-- ============ PROJECT DIALOG ============ -->
   <dialog class="pf-dialog" aria-labelledby="pf-dialog-title">
     <button class="pf-dialog__close" type="button" aria-label="닫기">✕</button>
     <div class="pf-dialog__scroll">
-      <div class="pf-dialog__media"><img alt="" /></div>
+      <div class="pf-dialog__media">
+        <div class="pf-dialog__gallery"></div>
+        <button class="pf-dialog__nav pf-dialog__nav--prev" type="button" aria-label="이전 사진" hidden>‹</button>
+        <button class="pf-dialog__nav pf-dialog__nav--next" type="button" aria-label="다음 사진" hidden>›</button>
+        <span class="pf-dialog__counter" hidden></span>
+      </div>
       <div class="pf-dialog__content">
         <div class="pf-dialog__tags"></div>
         <h3 id="pf-dialog-title"></h3>
@@ -594,17 +618,61 @@ body.pf-modal-open { overflow: hidden; }
 .pf-dialog__close:hover { background: #fff; transform: rotate(90deg); }
 /* 이미지 + 내용이 함께 스크롤되는 영역 */
 .pf-dialog__scroll { overflow-y: auto; flex: 1; min-height: 0; -webkit-overflow-scrolling: touch; }
-/* 이미지는 자연 크기로 크게 표시 (세로 긴 사진도 잘 보이게), 영역을 넘으면 함께 스크롤 */
-.pf-dialog__media { background: var(--bg-soft); text-align: center; line-height: 0; }
-.pf-dialog__media img {
-  max-width: 100%;
-  max-height: 60vh;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  display: inline-block;
-  vertical-align: top;
+/* 이미지 갤러리: 여러 장이면 가로 스크롤(스냅) + 현재 장수 카운터 */
+.pf-dialog__media { position: relative; background: var(--bg-soft); line-height: 0; }
+.pf-dialog__gallery {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
 }
+.pf-dialog__gallery::-webkit-scrollbar { display: none; }
+.pf-dialog__gallery img {
+  flex: 0 0 100%;
+  width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+  scroll-snap-align: center;
+  display: block;
+}
+.pf-dialog__counter {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(10, 10, 10, 0.7);
+  padding: 3px 10px;
+  border-radius: 999px;
+  line-height: 1.4;
+}
+.pf-dialog__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--ink);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+  transition: background 0.2s ease, opacity 0.2s ease;
+  z-index: 2;
+}
+.pf-dialog__nav:hover { background: #fff; }
+.pf-dialog__nav--prev { left: 12px; }
+.pf-dialog__nav--next { right: 12px; }
+.pf-dialog__nav:disabled { opacity: 0.3; cursor: default; }
 .pf-dialog__content { padding: 28px 32px 34px; }
 .pf-dialog__tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
 .pf-dialog__tags span {
@@ -648,6 +716,50 @@ body.pf-modal-open { overflow: hidden; }
 }
 .pf-dialog__links a:hover { opacity: 0.6; }
 
+/* DEMO CREDENTIALS */
+.pf-cred { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+.pf-cred__row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 10px 8px 12px;
+}
+.pf-cred__label {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  width: 28px;
+  flex-shrink: 0;
+}
+.pf-cred__row code {
+  flex: 1;
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--ink);
+  background: none;
+  padding: 0;
+  word-break: break-all;
+}
+.pf-cred__copy {
+  flex-shrink: 0;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--ink);
+  border: 1px solid var(--ink);
+  border-radius: 7px;
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: opacity .2s ease;
+}
+.pf-cred__copy:hover { opacity: 0.8; }
+.pf-cred__copy.copied { background: #16a34a; border-color: #16a34a; }
+
 /* CONTACT */
 .pf-contact { padding: 16px 0 72px; }
 .pf-contact h2 {
@@ -672,21 +784,74 @@ body.pf-modal-open { overflow: hidden; }
   var dialog = document.querySelector(".pf-dialog");
   if (!dialog) return;
 
-  var dImg = dialog.querySelector(".pf-dialog__media img");
+  var dGallery = dialog.querySelector(".pf-dialog__gallery");
+  var dCounter = dialog.querySelector(".pf-dialog__counter");
+  var dPrev = dialog.querySelector(".pf-dialog__nav--prev");
+  var dNext = dialog.querySelector(".pf-dialog__nav--next");
   var dTags = dialog.querySelector(".pf-dialog__tags");
   var dTitle = dialog.querySelector(".pf-dialog__title, #pf-dialog-title");
   var dDetail = dialog.querySelector(".pf-dialog__detail");
   var closeBtn = dialog.querySelector(".pf-dialog__close");
 
+  function currentIndex() {
+    return Math.round(dGallery.scrollLeft / dGallery.clientWidth);
+  }
+
+  // 현재 보고 있는 이미지 번호 표시 + 화살표 활성/비활성 갱신
+  function updateCounter() {
+    var n = dGallery.children.length;
+    if (n <= 1) return;
+    var idx = Math.max(0, Math.min(currentIndex(), n - 1));
+    dCounter.textContent = idx + 1 + " / " + n;
+    dPrev.disabled = idx <= 0;
+    dNext.disabled = idx >= n - 1;
+  }
+  dGallery.addEventListener("scroll", updateCounter);
+
+  function scrollToImage(idx) {
+    dGallery.scrollTo({ left: idx * dGallery.clientWidth, behavior: "smooth" });
+  }
+  dPrev.addEventListener("click", function () { scrollToImage(currentIndex() - 1); });
+  dNext.addEventListener("click", function () { scrollToImage(currentIndex() + 1); });
+
+  // 카드 이미지 목록 구성: data-images(파이프 구분)가 있으면 여러 장, 없으면 썸네일 1장
+  function imagesOf(card) {
+    var data = card.getAttribute("data-images");
+    if (data) {
+      var list = data.split("|").map(function (s) { return s.trim(); }).filter(Boolean);
+      if (list.length) return list;
+    }
+    var thumb = card.querySelector(".pf-card__thumb img");
+    return thumb ? [thumb.getAttribute("src")] : [];
+  }
+
   function openCard(card) {
-    var img = card.querySelector(".pf-card__thumb img");
     var title = card.querySelector(".pf-card__title");
     var tags = card.querySelector(".pf-tags");
     var detail = card.querySelector(".pf-card__detail");
+    var altText = title ? title.textContent : "";
 
-    dImg.src = img ? img.getAttribute("src") : "";
-    dImg.alt = title ? title.textContent : "";
-    dTitle.textContent = title ? title.textContent : "";
+    var srcs = imagesOf(card);
+    dGallery.innerHTML = "";
+    srcs.forEach(function (src) {
+      var im = document.createElement("img");
+      im.src = src;
+      im.alt = altText;
+      im.loading = "lazy";
+      dGallery.appendChild(im);
+    });
+    dGallery.scrollLeft = 0;
+    var multi = srcs.length > 1;
+    dCounter.hidden = !multi;
+    dPrev.hidden = !multi;
+    dNext.hidden = !multi;
+    if (multi) {
+      dCounter.textContent = "1 / " + srcs.length;
+      dPrev.disabled = true;
+      dNext.disabled = false;
+    }
+
+    dTitle.textContent = altText;
     dTags.innerHTML = tags ? tags.innerHTML : "";
     dDetail.innerHTML = detail ? detail.innerHTML : "";
 
@@ -724,6 +889,36 @@ body.pf-modal-open { overflow: hidden; }
   // 백드롭(다이얼로그 바깥) 클릭 시 닫기
   dialog.addEventListener("click", function (e) {
     if (e.target === dialog) closeDialog();
+  });
+
+  // 데모 계정 복사 버튼 (다이얼로그 내용은 매번 새로 그려지므로 위임 처리)
+  dialog.addEventListener("click", function (e) {
+    var btn = e.target.closest && e.target.closest(".pf-cred__copy");
+    if (!btn) return;
+    var text = btn.getAttribute("data-copy") || "";
+    var done = function () {
+      var original = btn.textContent;
+      btn.textContent = "복사됨";
+      btn.classList.add("copied");
+      setTimeout(function () {
+        btn.textContent = original;
+        btn.classList.remove("copied");
+      }, 1500);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, done);
+    } else {
+      // 구형 브라우저 폴백
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); } catch (err) {}
+      document.body.removeChild(ta);
+      done();
+    }
   });
 })();
 </script>
