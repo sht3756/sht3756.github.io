@@ -109,12 +109,68 @@ published: true
       <div class="pf-grid">
 
         <!-- TODO: 카드 복제해서 추가/수정. .pf-card__detail 안에 상세 내용을 넣으면 모달에 표시됩니다. -->
+        <article class="pf-card" tabindex="0" role="button" aria-haspopup="dialog"
+          data-images="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/hyper-b-home.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/%EC%95%84%ED%8B%B0%EC%8A%A4%ED%8A%B8%20%ED%8E%98%EC%9D%B4%EC%A7%80.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/%ED%8C%AC%ED%8E%98%EC%9D%B4%EC%A7%80%20%ED%94%BC%EB%93%9C.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/%ED%8C%AC%ED%8E%98%EC%9D%B4%EC%A7%80%20%ED%8E%80%EB%94%A9%20%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/%ED%8E%80%EB%94%A9%20%EA%B8%80%EC%93%B0%EA%B8%B0.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/%ED%8C%AC%ED%8E%98%EC%9D%B4%EC%A7%80%20MD%20%EA%B5%AC%EB%A7%A4.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/%EB%A6%AC%EC%84%9C%EC%B9%98%20%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80%20%ED%88%AC%ED%91%9C%EC%84%A0%ED%83%9D.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/%ED%8B%B0%EC%BC%93%20%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B3%B5%EC%97%B0%EC%A0%95%EB%B3%B4.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/%EC%A2%8C%EC%84%9D%20%EC%84%A0%ED%83%9D%20%ED%8B%B0%EC%BC%93%ED%8C%85.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/%EC%A3%BC%EB%AC%B8%EC%84%9C%20-%20Figma.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/Figma%20%EB%A1%9C%EA%B7%B8%EC%9D%B8.png?raw=true">
+          <div class="pf-card__thumb">
+            <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/hyper-b-home.png?raw=true" alt="하이퍼비" />
+          </div>
+          <div class="pf-card__body">
+            <h3 class="pf-card__title">하이퍼비 (HYPER-B)</h3>
+            <p class="pf-card__summary">K-POP 팬덤 플랫폼. 팬페이지·피드·펀딩·티켓팅·리서치 등 엔터 서비스 앱 런칭 오픈 멤버로 참여.</p>
+            <div class="pf-tags"><span>Flutter</span><span>Dart</span></div>
+            <span class="pf-card__more">자세히 보기 →</span>
+          </div>
+          <template class="pf-card__detail">
+            <h4>프로젝트 소개</h4>
+            <p>K-POP 아티스트와 팬을 잇는 팬덤 플랫폼입니다. 팬페이지·피드, 펀딩, MD 구매, 공연 티켓팅·좌석 선택, 리서치(투표) 등 엔터테인먼트 서비스를 제공합니다. 앱 런칭 오픈 멤버로 참여하여 초기 기획부터 출시까지 함께했습니다.</p>
+            <h4>기간</h4>
+            <ul>
+              <li>2025.05.11 ~ 2025.09.19</li>
+            </ul>
+            <h4>기술 스택</h4>
+            <ul>
+              <li>Flutter · Dart</li>
+            </ul>
+            <div class="pf-dialog__links">
+              <a href="https://hyper-b.kr/" target="_blank" rel="noopener">하이퍼비 바로가기 →</a>
+            </div>
+          </template>
+        </article>
+
+        <article class="pf-card" tabindex="0" role="button" aria-haspopup="dialog"
+          data-images="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project10-0.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project10.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project10-1.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project10-2.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project10-3.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project10-4.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project10-5.png?raw=true">
+          <div class="pf-card__thumb">
+            <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project10-0.png?raw=true" alt="고다지" />
+          </div>
+          <div class="pf-card__body">
+            <h3 class="pf-card__title">고다지 (GODZ)</h3>
+            <p class="pf-card__summary">대한민국 유소년 축구 커뮤니티 앱. 앱 런칭 오픈 멤버로 참여.</p>
+            <div class="pf-tags"><span>Flutter</span><span>Dart</span></div>
+            <span class="pf-card__more">자세히 보기 →</span>
+          </div>
+          <template class="pf-card__detail">
+            <h4>프로젝트 소개</h4>
+            <p>대한민국 유소년 축구와 관련된 정보를 나누는 커뮤니티 앱입니다. 앱 런칭 오픈 멤버로 참여하여 초기 기획부터 출시까지 함께했습니다.</p>
+            <h4>기간</h4>
+            <ul>
+              <li>2025.03.10 ~ 2025.05.10</li>
+            </ul>
+            <h4>기술 스택</h4>
+            <ul>
+              <li>Flutter · Dart</li>
+            </ul>
+            <div class="pf-dialog__links">
+              <a href="https://godz.co.kr/" target="_blank" rel="noopener">고다지 바로가기 →</a>
+            </div>
+          </template>
+        </article>
+
         <article class="pf-card" tabindex="0" role="button" aria-haspopup="dialog">
           <div class="pf-card__thumb">
             <img src="https://raw.githubusercontent.com/sht3756/sht3756.github.io/main/assets/images/project1.jpg" alt="나라면" />
           </div>
           <div class="pf-card__body">
-            <h3 class="pf-card__title">나라면</h3>
+            <h3 class="pf-card__title">나라면 (프레즐리)</h3>
             <p class="pf-card__summary">하루 1분 간편 응모 리워드 앱. 기획·개발·리팩토링 70% 이상 기여.</p>
             <div class="pf-tags"><span>Flutter</span><span>Firebase</span><span>Bloc</span></div>
             <span class="pf-card__more">자세히 보기 →</span>
@@ -329,6 +385,42 @@ published: true
           </template>
         </article>
 
+        <article class="pf-card" tabindex="0" role="button" aria-haspopup="dialog"
+          data-images="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project11.png?raw=true|https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project11-1.png?raw=true">
+          <div class="pf-card__thumb">
+            <img src="https://github.com/sht3756/sht3756.github.io/blob/main/assets/images/project11.png?raw=true" alt="빌딩시그널" />
+          </div>
+          <div class="pf-card__body">
+            <h3 class="pf-card__title">빌딩시그널 (BuildingSignal)</h3>
+            <p class="pf-card__summary">1인 운영 수익형 부동산·꼬마빌딩 매물 플랫폼. 매물 관리·투자제안서·건축물대장 연동·SEO 구현.</p>
+            <div class="pf-tags"><span>Next.js</span><span>Supabase</span><span>TypeScript</span></div>
+            <span class="pf-card__more">자세히 보기 →</span>
+          </div>
+          <template class="pf-card__detail">
+            <h4>프로젝트 소개</h4>
+            <p>서울 송파 방이동 일대 수익형 부동산·꼬마빌딩·상가건물 매매를 다루는 1인 운영 매물 플랫폼입니다. 방문자는 매물을 블로그처럼 열람하고, 관리자는 로그인 후 매물을 등록·수정하며 매물 기반 투자제안서까지 만들어 외부에 공유할 수 있습니다.</p>
+            <h4>기술 스택</h4>
+            <ul>
+              <li>Next.js 16 (App Router · ISR · 서버 액션)</li>
+              <li>React 19 · TypeScript · Tailwind CSS</li>
+              <li>Supabase (Auth · PostgreSQL · Storage, RLS 권한 정책)</li>
+              <li>Tiptap (리치 텍스트 에디터) · react-easy-crop (이미지 크롭)</li>
+            </ul>
+            <h4>기여도 · 주요 작업 <em>(100% · 개인)</em></h4>
+            <ul>
+              <li>공개 매물: 목록·필터(거래유형·매물종류·거래상태)·페이지네이션, 상세 페이지(사진 갤러리·정보표·위치 지도·공유)</li>
+              <li>관리자: 매물 등록·수정 다이얼로그, Tiptap 에디터, 이미지 크롭 업로드, 임대 현황(렌트롤) 편집, 휴지통</li>
+              <li>투자제안서: 매물 기반 수익률 자동 계산·제안서 작성, 토큰 링크로 외부 공유</li>
+              <li>건축물대장 자동 채움: 행안부 도로명주소 + 공공데이터포털 API 연동(연면적·건폐율·용적률·층수 등)</li>
+              <li>2단계 인증(MFA) · 역할 기반 관리자 접근</li>
+              <li>SEO: sitemap·robots·RealEstateListing JSON-LD 구조화 데이터·OG, ISR 60s</li>
+            </ul>
+            <div class='pf-dialog__links'>
+              <a href='https://beom-seven.vercel.app/' target='_blank' rel='noopener'>빌딩시그널 바로가기 →</a>
+            </div>
+          </template>
+        </article>
+
       </div>
     </div>
 
@@ -350,6 +442,12 @@ published: true
         <div class="pf-dialog__detail"></div>
       </div>
     </div>
+  </dialog>
+
+  <!-- ============ IMAGE LIGHTBOX (전체화면) ============ -->
+  <dialog class="pf-lightbox" aria-label="이미지 전체화면 보기">
+    <button class="pf-lightbox__close" type="button" aria-label="닫기">✕</button>
+    <img class="pf-lightbox__img" src="" alt="" />
   </dialog>
 
   <hr class="pf-rule" />
@@ -635,6 +733,7 @@ body.pf-modal-open { overflow: hidden; }
   object-fit: contain;
   scroll-snap-align: center;
   display: block;
+  cursor: zoom-in;
 }
 .pf-dialog__counter {
   position: absolute;
@@ -715,6 +814,53 @@ body.pf-modal-open { overflow: hidden; }
   padding-bottom: 1px;
 }
 .pf-dialog__links a:hover { opacity: 0.6; }
+
+/* IMAGE LIGHTBOX — 다이얼로그 이미지 전체화면 보기 */
+.pf-lightbox {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: rgba(10, 10, 10, 0.94);
+  overflow: hidden;
+}
+.pf-lightbox:not([open]) { display: none; }
+.pf-lightbox[open] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pf-lightbox::backdrop { background: rgba(0, 0, 0, 0.92); }
+.pf-lightbox[open] { animation: pf-pop .2s ease both; }
+.pf-lightbox__img {
+  max-width: 96vw;
+  max-height: 92vh;
+  object-fit: contain;
+  display: block;
+  cursor: default;
+}
+.pf-lightbox__close {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--ink);
+  font-size: 17px;
+  cursor: pointer;
+  z-index: 2;
+  transition: background .2s ease, transform .2s ease;
+}
+.pf-lightbox__close:hover { background: #fff; transform: rotate(90deg); }
 
 /* DEMO CREDENTIALS */
 .pf-cred { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
@@ -800,7 +946,7 @@ body.pf-modal-open { overflow: hidden; }
   // 현재 보고 있는 이미지 번호 표시 + 화살표 활성/비활성 갱신
   function updateCounter() {
     var n = dGallery.children.length;
-    if (n <= 1) return;
+    if (n < 1) return;
     var idx = Math.max(0, Math.min(currentIndex(), n - 1));
     dCounter.textContent = idx + 1 + " / " + n;
     dPrev.disabled = idx <= 0;
@@ -842,11 +988,14 @@ body.pf-modal-open { overflow: hidden; }
     });
     dGallery.scrollLeft = 0;
     var multi = srcs.length > 1;
-    dCounter.hidden = !multi;
+    // 카운터는 1장이어도 표시(1/1), 화살표는 2장 이상일 때만 표시
+    dCounter.hidden = srcs.length < 1;
     dPrev.hidden = !multi;
     dNext.hidden = !multi;
-    if (multi) {
+    if (srcs.length >= 1) {
       dCounter.textContent = "1 / " + srcs.length;
+    }
+    if (multi) {
       dPrev.disabled = true;
       dNext.disabled = false;
     }
@@ -862,6 +1011,10 @@ body.pf-modal-open { overflow: hidden; }
     }
     document.body.classList.add("pf-modal-open"); // 배경 스크롤 잠금
     dialog.querySelector(".pf-dialog__content").scrollTop = 0;
+    // 모달이 보이게 된 뒤 갤러리를 항상 첫 장으로 되돌림.
+    // (display:none 상태에서 설정한 scrollLeft 는 적용되지 않아, 이전에 넘겨둔 페이지 위치가 남던 문제 방지)
+    dGallery.scrollLeft = 0;
+    updateCounter();
   }
 
   function closeDialog() {
@@ -920,5 +1073,44 @@ body.pf-modal-open { overflow: hidden; }
       done();
     }
   });
+
+  // ===== 이미지 전체화면(라이트박스) =====
+  // 갤러리 이미지를 클릭하면 현재 보고 있는 사진을 전체화면으로 띄움.
+  // 슬라이드 버튼(‹ ›)·카운터는 dGallery 바깥 요소라 이 핸들러로 전달되지 않음.
+  var lightbox = document.querySelector(".pf-lightbox");
+  if (lightbox) {
+    var lightboxImg = lightbox.querySelector(".pf-lightbox__img");
+    var lightboxClose = lightbox.querySelector(".pf-lightbox__close");
+
+    var openLightbox = function (src, alt) {
+      lightboxImg.src = src;
+      lightboxImg.alt = alt || "";
+      if (typeof lightbox.showModal === "function") lightbox.showModal();
+      else lightbox.setAttribute("open", "");
+    };
+    var closeLightbox = function () {
+      if (typeof lightbox.close === "function") lightbox.close();
+      else lightbox.removeAttribute("open");
+      lightboxImg.removeAttribute("src");
+    };
+
+    dGallery.addEventListener("click", function () {
+      var imgs = dGallery.querySelectorAll("img");
+      if (!imgs.length) return;
+      var idx = Math.max(0, Math.min(currentIndex(), imgs.length - 1));
+      openLightbox(imgs[idx].src, imgs[idx].alt);
+    });
+
+    lightboxClose.addEventListener("click", closeLightbox);
+    // 어두운 배경 클릭 시 닫기 (이미지 자체 클릭은 유지)
+    lightbox.addEventListener("click", function (e) {
+      if (e.target === lightboxImg) return;
+      closeLightbox();
+    });
+    // ESC 등으로 닫힐 때 src 정리
+    lightbox.addEventListener("close", function () {
+      lightboxImg.removeAttribute("src");
+    });
+  }
 })();
 </script>
